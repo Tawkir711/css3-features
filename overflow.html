@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .box{
+            width: 500px;
+            height: 300px;
+            border: 2px solid blue;
+            /* overflow: scroll; */
+            overflow-y: auto;
+        }
+        /* #box-1{
+            overflow: scroll;
+            /* overflow-x ude kre niceer under line ta remove korlam *
+            overflow-x: hidden;
+        } */
+        .ellipsis{
+            width: 200px;
+            border: 2px solid blue;
+            white-space: nowrap;
+            overflow: hidden;
+            /* ellipsis use korle lekhar sese ... dekhabe p{title lekhe dile mouse nile pura likha bese utbe display er upor} */
+            text-overflow: ellipsis;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p title="I am a serious learning. I am investing at least 6-8 hrs every single day. No gap at all" class="ellipsis">I am a serious learning. I am investing at least 6-8 hrs every single day. No gap at all</p>
+    </header>
+    <section>
+        <div id="box-1" class="box">
+            <h3>My Text Box 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, impedit itaque suscipit similique quas minima nihil reiciendis praesentium fugit esse vitae iure dolorum eveniet, eos rerum tempore iste odit eaque quibusdam inventore enim, ad corporis hic. Doloribus voluptatibus natus minus provident eos corrupti quidem aliquid. Itaque laborum, mollitia blanditiis enim quia nobis vel quam quos porro ut nihil explicabo perspiciatis expedita qui recusandae molestias placeat tenetur praesentium. Accusantium mollitia maxime modi ut tempore sunt omnis placeat impedit quae fuga error rerum molestiae inventore quia eligendi officiis, at deleniti. Ad, consectetur. Adipisci velit, commodi repellat aliquid et inventore, quae perspiciatis quidem nisi quod ducimus distinctio error in ut magnam! Sed tenetur dolorum, nihil repudiandae unde laudantium, ipsam sit obcaecati autem commodi aperiam libero? Atque sapiente consequuntur itaque iste cumque distinctio est, eos earum similique voluptas voluptate explicabo provident fuga, architecto incidunt soluta perspiciatis esse odio reprehenderit maiores id corporis voluptates aperiam! Quo laudantium aliquid vero distinctio sit enim, optio illo voluptates illum sunt ipsa rerum, incidunt dicta beatae modi cumque. Quae?</p>
+        </div>
+        <div class="box">
+            <h3>My Text Box 2</h3>
+            <p>Aut aliquam dolorem, quia sequi commodi, corporis ullam dolores quo doloremque amet cumque fugit tempore quidem laborum! Molestiae a possimus ullam quaerat quisquam doloribus, ipsam ad atque unde soluta. Laboriosam dolores harum, voluptatum hic ea, totam quibusdam dolore aliquid, quaerat provident rerum. Vitae non incidunt beatae soluta at nihil repellendus explicabo nulla! Modi omnis vero fuga debitis eius iusto suscipit aspernatur molestiae totam! Dolorem amet non deserunt? Non eaque earum ad impedit dicta aspernatur. Recusandae at itaque ullam odit omnis eligendi quos, amet atque similique esse placeat eos expedita tenetur nam, beatae molestias laudantium, modi assumenda. Sed, quo laudantium explicabo dicta officia veritatis quos molestias assumenda esse voluptatem illum. Nobis animi molestiae, reprehenderit magnam dolor distinctio ad itaque deleniti hic accusantium quod facilis sunt blanditiis quia neque odio obcaecati, dolorem cupiditate exercitationem. Obcaecati vitae numquam perferendis laboriosam voluptatibus architecto magnam eveniet provident eum nemo delectus similique quidem harum repellat culpa nulla quas ipsam magni, mollitia qui pariatur assumenda et soluta exercitationem. Tempore eius pariatur quis libero nihil, iure doloribus expedita!</p>
+        </div>
+        <div class="box">
+            <h3>My Text Box 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae, nostrum reiciendis quo ea iure necessitatibus explicabo, tempore excepturi illo magnam exercitationem repellat est ducimus omnis, iste praesentium ad esse?</p>
+        </div>
+    </section>
+</body>
+</html>
